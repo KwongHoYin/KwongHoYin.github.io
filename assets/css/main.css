@@ -115,7 +115,7 @@ input, select, textarea {
 		}
 
 		a:visited{
-			color: inherit;
+			color: inherit !important;
 			text-decoration: none;
 		}
 
