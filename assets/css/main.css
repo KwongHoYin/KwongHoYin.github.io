@@ -129,7 +129,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 	#one p{
@@ -3275,11 +3275,23 @@ input, select, textarea {
 	margin-right: 3em;
 }
 
-menu{
+.menu li{
 	list-style-type: none;
+	
 }
 
+.menu ul{
+	margin-bottom: 1.5em;
+}
+
+
+
 /*links*/
+.links-title{
+	font-weight: bold;
+	margin-top: 1em;
+}
+
 .links h3 {
 	font-size: 1.2em;
 	color:#787878;
@@ -3303,6 +3315,9 @@ menu{
 	font-size: 0.9em;
 }
 
+.portal article{
+	margin-top:0.5em;
+}
 
 .copyrights{
 	text-align: right;
@@ -3311,12 +3326,11 @@ menu{
 .copyrights p{
 	text-align: right;
 	font-size: 0.5em;
-	margin: 0;
 }
 
 .mp h3{
 	margin-top: 0.2em;
-	font-weight: bold;
+	color: #6c6c6c;
 }
 
 .mp p{
