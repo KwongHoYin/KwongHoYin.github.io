@@ -24,24 +24,40 @@
 		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v15.0" nonce="DkUCiRc3"></script>	
 		
 		<!-- Header -->
-		<header id="header">
-			<div class="inner">
-				<a href="index.html" class="image avatar"><img src="images/profile_pic.jpeg" alt="" /></a>
-				<a href="index.html"><h1>KWONG Ho Yin, Thomas</a></h1> <br />
-				<nav class="menu" >					
-					<ul>
-						
-						<li><a href="ubeat.html">U-Beat Magazine</a></li>
-						<li><a href="mp.html">Ming Pao Daily News</a></li>					
-						<li><a href="video.html">Video Production</a></li>
-						<li><a href="infographics.html">Data Visualization</a></li>
-						<!--
-						<li><a href="photography.html">Photography</a></li>
-						<-->
-					</ul>
-				</nav>	
+	<header id="header">
+		<!--hamburger-->
+		<nav role="navigation">
+			<div id="menuToggle">
+			
+			  <input type="checkbox" />
+			  
+			  <!--
+			  Some spans to act as a hamburger.
+			  -->
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			  
+			  
+			  <ul id="menu">
+				<a href="index.html"><li><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</li></a>
+				<a href="ubeat.html"><li>U-Beat Magazine</li></a>
+				<a href="mp.html"><li>Ming Pao Daily News</li></a>
+				<a href="video.html"><li>Video Production</li></a>
+				<a href="infographics.html"><li>Data Visualization</li></a>
+			  </ul>
 			</div>
-		</header>
+		</nav>
+		
+		<div class="inner">
+			<a href="index.html" class="image avatar"><img src="images/profile_pic.jpeg" alt="" /></a>
+			<a href="index.html"><h1>KWONG Ho Yin, Thomas</a></h1> <br />
+			<h4 class="small">Major in Journalism and Communication, CUHK</h4>
+		</div>
+	</header>
+
+	<!--Back to top button-->
+	<a id="button"><i class="fa fa-arrow-circle-up fa-2xl"></i></a>
 
 		<!-- Main -->
 			<div id="main">
@@ -115,7 +131,7 @@
 		<footer id="footer">
 			<div class="inner icons">					
 				<a href="mailto:thomaskwonghy@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span><span>&nbsp;thomaskwonghy@gmail.com</span></a>					<ul class="copyright">
-					<li>&copy; Kwong Ho Yin 2022</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; Kwong Ho Yin 2022</li>
 				</ul>
 			</div>
 		</footer>
